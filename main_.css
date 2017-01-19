@@ -1,0 +1,202 @@
+
+.row div{
+	padding: 10px;
+}
+
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* imported code from nav bar lesson */
+section{
+	padding-top: 100px;
+	min-height: 100vh;
+	border: 1px solid gray;
+	/*background-image: url("valentines.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff; /*#003300*/
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 4px solid black;
+	z-index: 999;
+}
+
+nav li{
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+a{
+	text-decoration: none !important;
+	color: black !important;
+}
+
+a:hover{
+	color: #ffb3cc !important;
+}
+
+.current{
+	color: #ffb3cc;
+}
+
+.menu-icon{
+	float: left;
+	display: none;
+}
+
+@media (max-width: 768px){
+  nav ul{
+    display: none;
+  }
+
+  .menu-icon{
+  	display: block;
+  }
+}
+
+/* non lesson edits 1/14/17 */
+i.fa.fa-heart{
+	color: #ffb3cc;
+}
+
+i.fa.fa-heart:hover{
+	color: #ff3377;
+}
+
+.home{
+	font-size: 70px;
+	text-align: center;
+	color: black !important;
+	font-family: 'Cedarville Cursive', cursive;
+	/*top: 650px;
+	position: relative;*/
+	padding-bottom: 10%;
+    padding-top: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pink{
+	color: #ff3377;
+}
+
+#home{
+	background-image: url("valentines.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#clock_count{
+	/*background-color: #ffb3cc;*/
+    background: #f2f2f2; /* For browsers that do not support gradients 
+    background: -webkit-linear-gradient(#ffb3cc, white); /* For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(#ffb3cc, white); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(#ffb3cc, white); /* For Firefox 3.6 to 15 
+    background: linear-gradient(#ffb3cc, white); /* Standard syntax (must be last) */
+}
+
+.container-fluid{
+	padding: 0 !important;
+}
+ /*clock */
+
+ div#countdown{
+ 	font-size: 80px;
+ 	font-family: 'Cedarville Cursive', cursive;
+ 	text-align: center;
+ 	border: 10px solid #ffb3cc;
+ }
+
+.col-sm-12{
+ 	font-family: 'Halant', serif;
+ 	font-size: 35px;
+ 	text-align: center;
+ }
+
+.hotpink{
+	color: #ffb3cc !important;
+	padding: 30px;
+}
+
+.hotpink:hover{
+	color: #ff3377 !important;
+}
+
+@media (max-width: 695px){
+  .hotpink{
+    display: none !important;
+  }
+
+
+/* text over img test */
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}

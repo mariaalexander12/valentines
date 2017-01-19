@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grid</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="grid12.css">
+    <link rel="stylesheet" type="text/css" href="main_.css">
+    <link rel="stylesheet" type="text/css" href="Desktop/lesson_2/OriginalHoverEffects/css/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Halant" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0_copy/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap_copy/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap_resp_copy/css/bootstrap-responsive.css">
+    <!-- Add jQuery library -->
+    <!--jquery first -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!--any plugins i downloaded -->
+    <script src="jquery.nav_.js"></script>
+    <script src="main_.js"></script>
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <!--my own code -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <button class="menu-icon">☰</button>
+            <ul>
+                <!--(li>a)*4 -->
+                <li class="current"><a href="#home">Home</a></li>
+                <li><a href="#clock_count">Clock</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><i class="fa fa-heart" aria-hidden="true"></i></li>
+            </ul>
+        </nav>
+        <section class="row-fluid" id="home">
+            <div class="row home"> Are you ready for <span class="pink"> Valentines </span> Day ?</div>
+        </section>
+        <section id="clock_count">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p> Valentines Day is approaching soon...
+                            <br> Check out the countdown clock below to see how much time is left!
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div id="countdown"></div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12" style="font-size: 7em">
+                        <i class="fa fa-heart hotpink" aria-hidden="true"></i>
+                    </div>
+        </section>
+        <section id="restaurants" style="background: #ffe6f0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p> Below are some featured restaurants which are perfect for Valentines Day dining, with your friends, family or significant other! </p>
+                    </div>
+                </div>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-4 col-lg-3">
+                            <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                                <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-4 col-lg-3">
+                            <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                                <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-4 col-lg-3">
+                            <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                                <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-4 col-lg-3">
+                            <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                                <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+        </section>
+        <section id="gifts">
+            <h1>Projects</h1>
+            <div class="view">
+                <img src="grumpy.jpg" />
+                <div class="mask">
+                    <h2>Title</h2>
+                    <p>Your Text</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorum quod eaque </h1>
+            </div>
+        </div>
+    </div>
+-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a class="fancybox" rel="group" href="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg">
+                        <img src="http://star.inspiredmagz.netdna-cdn.com/wp-content/uploads/2013/11/shutterstock_114405106.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
